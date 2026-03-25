@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./wolflogo.png" width="180"/>
+  <img src="./wolflogo2.png" width="180"/>
 </p>
 
 <h1 align="center">Michael Wolf</h1>
