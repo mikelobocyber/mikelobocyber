@@ -7,7 +7,7 @@
 CS Student | Oklahoma Army National Guard | Cybersecurity
 </p>
 
-<p align="center"><i>Learn. Build. Hunt.</i></p>
+<p align="center"><i>Learn. Build. Improve.</i></p>
 
 ---
 
