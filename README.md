@@ -1,114 +1,81 @@
-<p align="center">
-  <img src="./Wolflogoalt.png" width="180"/>
-</p>
+# Michael Wolf
 
-<h1 align="center">Michael Wolf</h1>
-<p align="center">
-CS Student | Oklahoma Army National Guard | Cybersecurity
-</p>
+Computer Science student and Army National Guard Soldier building toward a career in DoD cybersecurity and cleared contractor work. Currently completing a B.S. in Computer Science at WGU while pursuing certifications aligned to the DoD 8140 framework.
 
-<p align="center"><i>Learn. Build. Improve.</i></p>
-
----
-
-## Background
-
-* B.S. Computer Science (in progress)
-* Oklahoma Army National Guard
+Long-term goal: Work in cleared cyber operations.
 
 ---
 
 ## Technical Focus
 
-**Languages:** Python, C++, Bash
-**Systems:** Linux (Kali, Ubuntu), Windows
-**Security Tools:** Nmap, Wireshark
-**Concepts:** Networking fundamentals, virtualization, file system security, port scanning, password analysis
+| Area | Details |
+| --- | --- |
+| Languages | Python, C++, Java, Rust, Bash |
+| Systems | macOS, Linux (Kali, Pop!_OS, Ubuntu) |
+| Security Tools | Wazuh, Nmap, Wireshark |
+| Platforms | Proxmox VE, Git |
+| Concepts | Threat detection, SIEM, AD attack surface analysis, network scanning, file integrity monitoring, virtualization |
 
 ---
 
 ## Projects
 
-### Cybersecurity & Systems
+### Cybersecurity
 
-| Project                                                                                 | Description                                                   | Tech   |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------ |
-| [Password Strength Checker](https://github.com/mikelobocyber/password-strength-checker) | CLI tool for evaluating password entropy and security         | Python |
-| [Port Scanner](https://github.com/mikelobocyber/port-scanner)                           | Network scanner for detecting open ports and services         | Python |
-| [File Integrity Monitor](https://github.com/mikelobocyber/file-integrity-monitor)       | Detects unauthorized file changes using cryptographic hashing | Python |
-
----
+| Project | Description | Stack |
+| --- | --- | --- |
+| [SniffSnorf](https://github.com/mikelobocyber/SniffSnorf) | Async port scanner with a built-in threat surface analyst. Fingerprints host type, flags dangerous exposures in plain English, and maps every finding to a MITRE ATT&CK technique. | Rust, tokio |
+| [Fenrir](https://github.com/mikelobocyber/Fenrir) | CPU-focused password cracker targeting memory-hard hash algorithms: Argon2, bcrypt, and scrypt. Uses rayon for parallel mutation across wordlists with rule-based candidate generation. | Rust, rayon |
+| [UCSAT](https://github.com/mikelobocyber/UCSAT-UnitCommunicationsSecurityAssessmentTool-) | CLI tool that walks unit leaders through a 25-question communications security assessment across five weighted categories, scores posture in real time, and saves a report to disk. | Python |
+| [File Integrity Monitor](https://github.com/mikelobocyber/file-integrity-monitor) | Monitors directories for unauthorized file changes using SHA-256 cryptographic hashing. Detects additions, deletions, and modifications against a persistent baseline. | Python |
+| [Port Scanner](https://github.com/mikelobocyber/port-scanner) | Multithreaded network scanner for detecting open ports and running services across a target range. | Python |
+| [Password Strength Checker](https://github.com/mikelobocyber/password-strength-checker) | CLI tool that evaluates password entropy, length, and character composition to score security strength. | Python |
 
 ### Software Development
 
-| Project                                             | Description                                                                              | Tech              |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------- |
-| [Shelf App](https://github.com/mikelobocyber/shelf) | Cross-platform reading app with bookmarking, highlighting, and persistent library system | React, JavaScript |
-
----
-
-### Additional Projects
-
-Other repositories demonstrating continued learning, experimentation, and skill development:
-
-👉 https://github.com/mikelobocyber?tab=repositories
-
-Includes experiments in Linux, scripting, and system-level tooling.
+| Project | Description | Stack |
+| --- | --- | --- |
+| WolfTrack | Fully local iOS calorie tracking app. Scans product barcodes, retrieves nutrition data via the Open Food Facts API, and logs daily intake with no server or account required. | Rust, SwiftUI, SwiftData |
+| [Shelf](https://github.com/mikelobocyber/shelf) | Fully local EPUB and PDF reader that runs in the browser or as a desktop app. No server, no uploads, no accounts. Includes bookmarks, reading progress, metadata editing, and optional library folder sync. | JavaScript, CSS, Electron |
 
 ---
 
 ## Homelab
 
-Actively building a **Proxmox-based cybersecurity homelab** to develop real-world skills in virtualization, networking, and penetration testing.
+Proxmox-based cybersecurity homelab running on a dedicated mini PC with LUKS full-disk encryption, used for hands-on blue team skill development and portfolio work.
 
-### Infrastructure
+| Component | Details |
+| --- | --- |
+| Hypervisor | Proxmox VE (bare-metal) |
+| SIEM | Wazuh — log ingestion, custom detection rules, MITRE ATT&CK-mapped alerts |
+| Attacker VM | Kali Linux |
+| AD Lab | GOAD (Game of Active Directory) — vulnerable multi-domain environment for attack simulation and detection development |
+| Self-Hosted Services | Nextcloud |
 
-* Proxmox VE (bare-metal hypervisor)
-* Dedicated mini PC lab environment
+Current focus: building Wazuh detection rules for Active Directory-based attacks (Kerberoasting, AS-REP roasting, Pass-the-Hash) with full MITRE ATT&CK documentation.
 
-### Virtual Machines
-
-* Kali Linux (attacker machine)
-* Metasploitable (vulnerable target)
-* Ubuntu Server (planned services)
-
-### Network Design
-
-* Virtual bridge: `vmbr0`
-* Isolated internal lab network
-* Controlled attacker ↔ target communication
-
-### Current Work
-
-* VM provisioning and resource management in Proxmox
-* Network scanning and enumeration (Nmap)
-* Vulnerability analysis in isolated environments
-* Lab documentation and architecture design
-
-### Homelab Repository
-
-👉 [Lobo Homelab](https://github.com/mikelobocyber/lobo-homelab)
+Full documentation: [lobo-homelab](https://github.com/mikelobocyber/lobo-homelab)
 
 ---
 
 ## Certifications
 
-**Completed**
+| Certification | Status |
+| --- | --- |
+| ISC2 Certified in Cybersecurity (CC) | In Progress |
+| Linux Foundations | In Progress |
+| ITIL 4 Foundation | Planned |
+| CompTIA Security+ | Planned |
+| AWS Cloud Practitioner | Planned |
+| CompTIA CySA+ | Planned |
 
-* Google Data Analytics Certificate
-
-**In Progress**
-
-* CompTIA Security+ *(pursuing via Army COOL)*
-
----
-
-## Goal
-
-Build the technical depth and clearance background to work in cybersecurity — long-term targeting cleared contractor roles in defense tech.
+Full roadmap aligned to DoD 8140: [cybersecurity-certifications](https://github.com/mikelobocyber/cybersecurity-certifications)
 
 ---
 
-## Connect
+## Education
 
-*Open to connecting with others in cybersecurity, defense tech, or systems programming.*
+| Degree | Institution | Status |
+| --- | --- | --- |
+| B.S. Computer Science | Western Governors University | In Progress |
+| M.S. Artificial Intelligence and Machine Learning | Western Governors University | Planned |
