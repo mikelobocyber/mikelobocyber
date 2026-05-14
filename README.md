@@ -24,6 +24,7 @@ Long-term goal: Work in cleared cyber operations.
 
 | Project | Description | Stack |
 | --- | --- | --- |
+| [cloudtrail-anomaly-alerter](https://github.com/mikelobocyber/cloudtrail-anomaly-alerter) | Serverless AWS security tool that monitors CloudTrail logs in real time, detects suspicious API activity across five rule categories, and maps every finding to a MITRE ATT&CK technique. Alerts via SNS email and structured JSON logs for SIEM ingestion. | Python, AWS Lambda, SAM |
 | [SniffSnorf](https://github.com/mikelobocyber/SniffSnorf) | Async port scanner with a built-in threat surface analyst. Fingerprints host type, flags dangerous exposures in plain English, and maps every finding to a MITRE ATT&CK technique. | Rust, tokio |
 | [Fenrir](https://github.com/mikelobocyber/Fenrir) | CPU-focused password cracker targeting memory-hard hash algorithms: Argon2, bcrypt, and scrypt. Uses rayon for parallel mutation across wordlists with rule-based candidate generation. | Rust, rayon |
 | [UCSAT](https://github.com/mikelobocyber/UCSAT-UnitCommunicationsSecurityAssessmentTool-) | CLI tool that walks unit leaders through a 25-question communications security assessment across five weighted categories, scores posture in real time, and saves a report to disk. | Python |
@@ -79,3 +80,4 @@ Full roadmap aligned to DoD 8140: [cybersecurity-certifications](https://github.
 | --- | --- | --- |
 | B.S. Computer Science | Western Governors University | In Progress |
 | M.S. Artificial Intelligence and Machine Learning | Western Governors University | Planned |
+
