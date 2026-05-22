@@ -10,7 +10,7 @@ Long-term goal: Work in cleared cyber operations.
 
 | Area | Details |
 | --- | --- |
-| Languages | Python, C++, Java, Rust, Bash |
+| Languages | Python, C++, Java, Rust, Bash, HTML/CSS/JavaScript |
 | Systems | macOS, Linux (Kali, Pop!_OS, Ubuntu) |
 | Security Tools | Wazuh, Nmap, Wireshark |
 | Platforms | Proxmox VE, Git |
@@ -36,6 +36,7 @@ Long-term goal: Work in cleared cyber operations.
 
 | Project | Description | Stack |
 | --- | --- | --- |
+| [voice-civics-128](https://github.com/mikelobocyber/voice-civics-128) | Free web app for practicing the 2025 USCIS naturalization civics test by speaking answers out loud. Speech recognition, state-specific answers, and exam simulation mode. Live at [mikelobocyber.github.io/voice-civics-128](https://mikelobocyber.github.io/voice-civics-128/) | HTML, CSS, JavaScript |
 | WolfTrack | Fully local iOS calorie tracking app. Scans product barcodes, retrieves nutrition data via the Open Food Facts API, and logs daily intake with no server or account required. | Rust, SwiftUI, SwiftData |
 | [Shelf](https://github.com/mikelobocyber/shelf) | Fully local EPUB and PDF reader that runs in the browser or as a desktop app. No server, no uploads, no accounts. Includes bookmarks, reading progress, metadata editing, and optional library folder sync. | JavaScript, CSS, Electron |
 
@@ -80,4 +81,3 @@ Full roadmap aligned to DoD 8140: [cybersecurity-certifications](https://github.
 | --- | --- | --- |
 | B.S. Computer Science | Western Governors University | In Progress |
 | M.S. Artificial Intelligence and Machine Learning | Western Governors University | Planned |
-
