@@ -1,4 +1,4 @@
-# Miguel Angel Sevilla Ruiz
+# Michael Wolf Scherwitz
 
 **Computer Science Graduate | Army National Guard Soldier | Cybersecurity-Focused Software Developer**
 
